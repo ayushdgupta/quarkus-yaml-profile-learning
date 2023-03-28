@@ -11,6 +11,9 @@ import javax.ws.rs.core.Response;
 @Path("/profileDemo")
 public class ProfileResource {
 
+    // command to run this gradle project (running local profile)
+    // gradlew.bat quarkusDev -Dquarkus.profile=local
+
     @ConfigProperty(name = "ayush.property", defaultValue = "baniya")
     public String property;
 
